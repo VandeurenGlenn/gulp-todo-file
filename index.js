@@ -22,7 +22,7 @@ module.exports = function () {
 		}
 
 		if (file.isStream()) {
-			cb(new gutil.PluginError('gulp-todo', 'Streaming not supported'));
+			cb(new gutil.PluginError('gulp-todo-file', 'Streaming not supported'));
 			return;
 		}
 
@@ -40,7 +40,7 @@ module.exports = function () {
         return cb(null, file);
       }
 		} catch (err) {
-			this.emit('error', new gutil.PluginError('gulp-todo', err));
+			this.emit('error', new gutil.PluginError('gulp-todo-file', err));
 		}
 
 		cb(null, null);

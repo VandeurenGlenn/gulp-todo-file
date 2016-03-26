@@ -1,4 +1,4 @@
-# gulp-todo [![Build Status](https://travis-ci.org/VandeurenGlenn/gulp-todo.svg?branch=master)](https://travis-ci.org/VandeurenGlenn/gulp-todo)
+# gulp-todo-file [![Build Status](https://travis-ci.org/VandeurenGlenn/gulp-todo-file.svg?branch=master)](https://travis-ci.org/VandeurenGlenn/gulp-todo-file)
 
 > My stellar gulp plugin
 
@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save-dev gulp-todo
+$ npm install --save-dev gulp-todo-file
 ```
 
 
@@ -14,7 +14,7 @@ $ npm install --save-dev gulp-todo
 
 ```js
 var gulp = require('gulp');
-var todo = require('gulp-todo');
+var todos = require('gulp-todo-file');
 
 gulp.task('default', function () {
 	return gulp.src('src/file.ext')

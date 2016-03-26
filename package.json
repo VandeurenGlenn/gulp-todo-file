@@ -1,9 +1,9 @@
 {
-  "name": "gulp-todo",
+  "name": "gulp-todo-file",
   "version": "0.1.0",
   "description": "",
   "license": "MIT",
-  "repository": "VandeurenGlenn/gulp-todo",
+  "repository": "VandeurenGlenn/gulp-todo-file",
   "author": {
     "name": "Glenn Vandeuren",
     "email": "vandeurenglenn@gmail.com",
